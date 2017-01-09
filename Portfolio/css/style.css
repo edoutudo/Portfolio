@@ -1,0 +1,63 @@
+body{
+	background-image: url(img/dj.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 100%;
+	background-repeat: no-repeat;
+}
+
+nav{
+	padding-left: 120px;
+}
+
+.bouton{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 42px;
+	text-decoration: none;
+	padding-left: 100px;
+	
+}
+
+.bouton:hover{
+	color: rgb(73, 110, 122);
+}
+
+h1{
+	color: #FFF;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	font-size: 100px;
+	font-weight: bold;
+	border: 5px solid;
+	border-radius: 59px;
+	padding: 7px;
+	background-color: rgba(73, 110, 122, 0.7);
+}
+
+video{
+	align-items: center;
+	margin-top: 30px;
+	display: flex;
+}
+
+section {
+	padding: 10px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-position: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}
+
+.img{
+	margin-bottom: 8px;
+}
